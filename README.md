@@ -1,13 +1,7 @@
-# google_place
-
-## Discontinued
-
-### This project is no longer maintained, and will not receive further updates.
-
-
-
+# google_place_plus
 
 A Flutter plugin for iOS and Android and Web that provides a [Google Place API](https://developers.google.com/places/web-service/intro).
+This package is forked from https://github.com/bazrafkan, appreciate your contribution.
 
 ## Preview
 
@@ -23,7 +17,7 @@ The following place requests are available:
 
 ## Usage
 
-To use this plugin, add **_google_place_** as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
+To use this plugin, add **_google_place_plus_** as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 
 ## Getting Started
 
@@ -33,7 +27,7 @@ To use this plugin, add **_google_place_** as a [dependency in your pubspec.yaml
 
 ## Example
 
-- [Example](https://github.com/bazrafkan/google_place/blob/master/example)
+- [Example](https://github.com/phungta97/google_place_plus/blob/master/example)
 
   ![Home page](example/images/home_page.png)
   ![Details page](example/images/details_page.png)

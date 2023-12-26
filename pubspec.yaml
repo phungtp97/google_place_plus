@@ -1,13 +1,13 @@
-name: google_place
-description: A new Flutter package for handle google place api that place search and details and photos and autocomplete and query autocomplete requests are available
-version: 0.4.7
-homepage: https://github.com/bazrafkan/google_place
+name: google_place_plus
+description: A new Flutter package for handle google place api that place search and details and photos and autocomplete and query autocomplete requests are available, forked from https://github.com/bazrafkan
+version: 1.0.0
+homepage: https://github.com/phungta97/google_place_plus
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
-  http: ^0.13.3
+  http: ^1.0.0
 
 dev_dependencies:
   flutter_test:

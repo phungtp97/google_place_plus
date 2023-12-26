@@ -1,5 +1,5 @@
-import 'package:google_place/google_place.dart';
-import 'package:google_place/src/utils/network_utility.dart';
+import 'package:google_place_plus/google_place_plus.dart';
+import 'package:google_place_plus/src/utils/network_utility.dart';
 
 class Search {
   static final _authority = 'maps.googleapis.com';

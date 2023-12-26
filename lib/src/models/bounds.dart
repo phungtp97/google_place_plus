@@ -1,5 +1,5 @@
-import 'package:google_place/src/models/northeast.dart';
-import 'package:google_place/src/models/southwest.dart';
+import 'package:google_place_plus/src/models/northeast.dart';
+import 'package:google_place_plus/src/models/southwest.dart';
 
 class Bounds {
   final Northeast? northeast;

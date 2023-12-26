@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:google_place/src/utils/network_utility.dart';
+import 'package:google_place_plus/src/utils/network_utility.dart';
 
 class Photos {
   static final _authority = 'maps.googleapis.com';
@@ -28,12 +28,12 @@ class Photos {
   /// dimension, it will be scaled to match the smaller of the two dimensions, restricted to its
   /// original aspect ratio. Both the maxheight and maxwidth properties accept an integer
   /// between 1 and 1600.
-  Future<Uint8List?> get(
-    String photoReference,
-    int maxHeight,
-    int maxWidth,
+  Future<Uint8List?> get({
+    required String photoReference,
+    int? maxHeight,
+    int? maxWidth,}
   ) async {
-    assert(photoReference != "");
+    assert(photoReference != '');
     var queryParameters = _createParameters(
       apiKEY,
       photoReference,

@@ -1,6 +1,6 @@
-import 'package:google_place/src/models/bounds.dart';
-import 'package:google_place/src/models/location.dart';
-import 'package:google_place/src/models/viewport.dart';
+import 'package:google_place_plus/src/models/bounds.dart';
+import 'package:google_place_plus/src/models/location.dart';
+import 'package:google_place_plus/src/models/viewport.dart';
 
 class Geometry {
   /// [location] contains the geocoded latitude,longitude value for this place.

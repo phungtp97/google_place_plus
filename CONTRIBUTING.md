@@ -1,6 +1,6 @@
-# Contributing to the google_place package
+# Contributing to the google_place_plus package
 
-Thank you for your interest in contributing to the **_google_place_** package! I love receiving contributions, and your work helps quality of this package. This doc will walk you through the easiest way to make a change and have it submitted to the **_google_place_** package.
+Thank you for your interest in contributing to the **_google_place_plus_** package! I love receiving contributions, and your work helps quality of this package. This doc will walk you through the easiest way to make a change and have it submitted to the **_google_place_** package.
 
 ## Developer workflow
 
@@ -8,8 +8,8 @@ The easiest workflow for adding a feature/fixing a bug is to test it out on the 
 
 ### Environment
 
-1. Fork the **_google_place_** repo on github.
-2. Clone your fork of the **_google_place_** repo.
+1. Fork the **_google_place_plus_** repo on github.
+2. Clone your fork of the **_google_place_plus_** repo.
 3. Build and run the example app in example/lib/main.dart (from the example/ directory, use \$ flutter run).
 
 ### Development
@@ -23,5 +23,5 @@ The easiest workflow for adding a feature/fixing a bug is to test it out on the 
 
 1. Make sure all the existing tests are passing by using the following command (from the root of the project): \$ flutter test test/.
 2. Make sure the repo is formatted using \$ flutter format ..
-3. Create a PR to merge the branch on your fork into **_google_place/master_**.
-4. Add bazrafkan as reviewers on the PR. I will take a look and add any comments. When the PR is ready to be merged, I will merge it and update the package on pub.dev!
+3. Create a PR to merge the branch on your fork into **_google_place_plus/master_**.
+4. Add phungtp97 as reviewers on the PR. I will take a look and add any comments. When the PR is ready to be merged, I will merge it and update the package on pub.dev!

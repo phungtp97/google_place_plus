@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_place/google_place.dart';
+import 'package:google_place_plus/google_place_plus.dart';
 
 void main() {
   String apiKey = "Your-Key";
@@ -10,7 +10,7 @@ void main() {
     expect(googlePlace.search.apiKEY, apiKey);
     expect(googlePlace.details.apiKEY, apiKey);
     expect(googlePlace.photos.apiKEY, apiKey);
-    await googlePlace.photos.get("photoReference", 10, 10);
+    await googlePlace.photos.get(photoReference: "photoReference", maxHeight: 10, maxWidth: 10);
     expect(googlePlace.autocomplete.apiKEY, apiKey);
     expect(googlePlace.queryAutocomplete.apiKEY, apiKey);
   });
@@ -20,7 +20,7 @@ void main() {
     googlePlace = GooglePlace(apiKey, proxyUrl: 'localhost:6969');
     await googlePlace.autocomplete.get("some place");
     googlePlace = GooglePlace(apiKey, proxyUrl: 'https://localhost:6969');
-    await googlePlace.photos.get("photoReference", 10, 10);
+    await googlePlace.photos.get(photoReference: "photoReference", maxHeight: 10, maxWidth: 10);
     googlePlace = GooglePlace(apiKey, proxyUrl: 'https://1.2.3.4/proxy');
     await googlePlace.queryAutocomplete.get("some place");
     googlePlace = GooglePlace(apiKey,
